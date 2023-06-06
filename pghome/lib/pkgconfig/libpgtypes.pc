@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.5
+Requires: 
+Requires.private: 
+Cflags: -I/home/lighthouse/PGDev/pghome/include
+Libs: -L/home/lighthouse/PGDev/pghome/lib -lpgtypes
+Libs.private:  -lm
