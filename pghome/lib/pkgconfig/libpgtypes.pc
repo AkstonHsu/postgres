@@ -4,6 +4,6 @@ Url: http://www.postgresql.org/
 Version: 12.5
 Requires: 
 Requires.private: 
-Cflags: -I/home/lighthouse/PGDev/pghome/include
-Libs: -L/home/lighthouse/PGDev/pghome/lib -lpgtypes
+Cflags: -I/home/postgres/PGDev/pghome/include
+Libs: -L/home/postgres/PGDev/pghome/lib -lpgtypes
 Libs.private:  -lm
