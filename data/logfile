@@ -8,3 +8,12 @@
 	;
 2023-06-07 22:20:54.366 CST [62441] ERROR:  syntax error at or near ";" at character 16
 2023-06-07 22:20:54.366 CST [62441] STATEMENT:  create table sb;
+2023-06-07 22:26:25.572 CST [66028] LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-06-07 22:26:25.572 CST [66028] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-06-07 22:26:25.581 CST [66028] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-06-07 22:26:25.607 CST [66029] LOG:  database system was interrupted; last known up at 2023-06-07 22:20:36 CST
+2023-06-07 22:26:25.894 CST [66029] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-06-07 22:26:25.903 CST [66029] LOG:  redo starts at 0/15CD078
+2023-06-07 22:26:25.904 CST [66029] LOG:  invalid record length at 0/15DEAD8: wanted 24, got 0
+2023-06-07 22:26:25.904 CST [66029] LOG:  redo done at 0/15DEAA0
+2023-06-07 22:26:25.950 CST [66028] LOG:  database system is ready to accept connections
